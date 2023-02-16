@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages",
+        "/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages",
+        "/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages",
+        "/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages",
+        "/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

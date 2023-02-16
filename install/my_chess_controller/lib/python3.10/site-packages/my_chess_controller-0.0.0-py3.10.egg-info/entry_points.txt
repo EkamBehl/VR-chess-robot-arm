@@ -1,0 +1,7 @@
+[console_scripts]
+blue_pieces = my_chess_controller.blue_chess:main
+board_state = my_chess_controller.board_state:main
+key_board = my_chess_controller.keyBoard:main
+my_listner = my_chess_controller.depth_sub:main
+red_pieces = my_chess_controller.chess_pieces:main
+

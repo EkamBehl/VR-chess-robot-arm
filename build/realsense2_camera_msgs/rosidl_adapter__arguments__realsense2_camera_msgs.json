@@ -1,0 +1,9 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "non_idl_tuples": [
+    "/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
+    "/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv"
+  ]
+}

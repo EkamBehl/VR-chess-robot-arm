@@ -1,0 +1,425 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc658e16770>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc658e16200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc658e16200>>)
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ekambehl/chess_ws'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ros2ForUnity) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ros2ForUnity) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ros2ForUnity) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_chess_controller) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_chess_controller' with type 'ros.ament_python' and name 'my_chess_controller'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ekambehl/chess_ws/install
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ekambehl/ros_ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ekambehl/ros2_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'my_chess_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'my_chess_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekambehl/chess_ws/build/my_chess_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekambehl/chess_ws/install/my_chess_controller', 'merge_install': False, 'path': '/home/ekambehl/chess_ws/src/my_chess_controller', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekambehl/chess_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekambehl/chess_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekambehl/chess_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekambehl/chess_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekambehl/chess_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekambehl/chess_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekambehl/chess_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekambehl/chess_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.242s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ekambehl/chess_ws/src/my_chess_controller' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_chess_controller', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/ament_prefix_path.sh'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_camera_msgs -- -j16 -l16
+[0.563s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ekambehl/chess_ws/src/my_chess_controller'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2'
+[0.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_camera_msgs -- -j16 -l16
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_camera_msgs
+[1.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_camera_msgs
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs' for CMake config files
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib'
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/bin'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/bin'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs' for CMake module files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib'
+[1.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/bin'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[1.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_camera'
+[1.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[1.156s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekambehl/chess_ws/src/realsense-ros/realsense2_description'
+[1.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_camera -- -j16 -l16
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_description -- -j16 -l16
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_description -- -j16 -l16
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/src/my_chess_controller': PYTHONPATH=/home/ekambehl/chess_ws/build/my_chess_controller/prefix_override:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_chess_controller build --build-base /home/ekambehl/chess_ws/build/my_chess_controller/build install --record /home/ekambehl/chess_ws/build/my_chess_controller/install.log --single-version-externally-managed
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/ekambehl/chess_ws/build/ros_tcp_endpoint/prefix_override:/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build install --record /home/ekambehl/chess_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_description
+[1.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description' for CMake module files
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_description
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description' for CMake config files
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/lib/python3.10/site-packages'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/bin'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ekambehl/chess_ws/build/realsense2_camera -- -j16 -l16
+[1.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description' for CMake config files
+[1.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/lib/python3.10/site-packages'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_description/bin'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekambehl/chess_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_camera
+[1.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera' for CMake module files
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ekambehl/chess_ws/build/realsense2_camera
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera' for CMake config files
+[1.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib'
+[1.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/bin'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/bin'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera' for CMake module files
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera' for CMake config files
+[1.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib'
+[1.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/bin'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/realsense2_camera/bin'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller' for CMake module files
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/src/my_chess_controller' returned '0': PYTHONPATH=/home/ekambehl/chess_ws/build/my_chess_controller/prefix_override:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_chess_controller build --build-base /home/ekambehl/chess_ws/build/my_chess_controller/build install --record /home/ekambehl/chess_ws/build/my_chess_controller/install.log --single-version-externally-managed
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller' for CMake config files
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller/lib'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller/lib/pkgconfig/my_chess_controller.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages'
+[1.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_chess_controller', 'pythonpath')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/pythonpath.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/pythonpath.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/hook/pythonpath.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/my_chess_controller/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_chess_controller)
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/package.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/package.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/package.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/package.bash'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/my_chess_controller/share/my_chess_controller/package.zsh'
+[1.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/my_chess_controller/share/colcon-core/packages/my_chess_controller)
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint' for CMake module files
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/ekambehl/chess_ws/build/ros_tcp_endpoint/prefix_override:/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build install --record /home/ekambehl/chess_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint' for CMake config files
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib'
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/bin'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[1.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/bin'
+[1.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[1.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[1.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[1.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.586s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.593s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.607s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekambehl/chess_ws/install/local_setup.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ekambehl/chess_ws/install/_local_setup_util_ps1.py'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekambehl/chess_ws/install/setup.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekambehl/chess_ws/install/local_setup.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ekambehl/chess_ws/install/_local_setup_util_sh.py'
+[1.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekambehl/chess_ws/install/setup.sh'
+[1.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekambehl/chess_ws/install/local_setup.bash'
+[1.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekambehl/chess_ws/install/setup.bash'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekambehl/chess_ws/install/local_setup.zsh'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekambehl/chess_ws/install/setup.zsh'

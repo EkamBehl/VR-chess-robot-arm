@@ -1,0 +1,3 @@
+[console_scripts]
+my_listner = my_chess_controller.depth_sub:main
+

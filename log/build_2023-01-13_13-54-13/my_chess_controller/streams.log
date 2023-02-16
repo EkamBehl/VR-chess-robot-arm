@@ -1,0 +1,23 @@
+[0.473s] Invoking command in '/home/ekambehl/chess_ws/src/my_chess_controller': PYTHONPATH=/home/ekambehl/chess_ws/build/my_chess_controller/prefix_override:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_chess_controller build --build-base /home/ekambehl/chess_ws/build/my_chess_controller/build install --record /home/ekambehl/chess_ws/build/my_chess_controller/install.log --single-version-externally-managed
+[0.661s] running egg_info
+[0.661s] writing ../../build/my_chess_controller/my_chess_controller.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/my_chess_controller/my_chess_controller.egg-info/dependency_links.txt
+[0.662s] writing entry points to ../../build/my_chess_controller/my_chess_controller.egg-info/entry_points.txt
+[0.662s] writing requirements to ../../build/my_chess_controller/my_chess_controller.egg-info/requires.txt
+[0.662s] writing top-level names to ../../build/my_chess_controller/my_chess_controller.egg-info/top_level.txt
+[0.663s] reading manifest file '../../build/my_chess_controller/my_chess_controller.egg-info/SOURCES.txt'
+[0.663s] writing manifest file '../../build/my_chess_controller/my_chess_controller.egg-info/SOURCES.txt'
+[0.663s] running build
+[0.663s] running build_py
+[0.664s] running install
+[0.664s] running install_lib
+[0.665s] running install_data
+[0.665s] running install_egg_info
+[0.666s] removing '/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.666s] Copying ../../build/my_chess_controller/my_chess_controller.egg-info to /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller-0.0.0-py3.10.egg-info
+[0.666s] running install_scripts
+[0.680s] Installing board_state script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller
+[0.680s] Installing chess_piece script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller
+[0.680s] Installing my_listner script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller
+[0.680s] writing list of installed files to '/home/ekambehl/chess_ws/build/my_chess_controller/install.log'
+[0.701s] Invoked command in '/home/ekambehl/chess_ws/src/my_chess_controller' returned '0': PYTHONPATH=/home/ekambehl/chess_ws/build/my_chess_controller/prefix_override:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_chess_controller build --build-base /home/ekambehl/chess_ws/build/my_chess_controller/build install --record /home/ekambehl/chess_ws/build/my_chess_controller/install.log --single-version-externally-managed

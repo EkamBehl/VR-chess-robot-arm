@@ -1,0 +1,686 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (my_chess_controller) JobQueued: {'identifier': 'my_chess_controller', 'dependencies': OrderedDict()}
+[0.000186] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000209] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs')])}
+[0.000228] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs')])}
+[0.000246] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.009735] (my_chess_controller) JobStarted: {'identifier': 'my_chess_controller'}
+[0.019492] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.021238] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[0.021326] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ekambehl/chess_ws/build/realsense2_camera_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[0.074917] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] Built target realsense2_camera_msgs__cpp\n'}
+[0.078318] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[0.086963] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_realsense2_camera_msgs\n'}
+[0.098095] (-) TimerEvent: {}
+[0.104480] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[0.104882] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o\x1b[0m\n'}
+[0.105061] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[0.105191] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[0.105313] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[0.105505] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[0.105643] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[0.105837] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[0.106414] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 38%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[0.106885] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 49%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.107951] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o\x1b[0m\n'}
+[0.110442] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[0.110733] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[0.111020] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o\x1b[0m\n'}
+[0.116267] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[0.120693] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[0.121097] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[0.198212] (-) TimerEvent: {}
+[0.298668] (-) TimerEvent: {}
+[0.399272] (-) TimerEvent: {}
+[0.499828] (-) TimerEvent: {}
+[0.600372] (-) TimerEvent: {}
+[0.617086] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[0.695768] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.700489] (-) TimerEvent: {}
+[0.770672] (realsense2_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.771964] (realsense2_camera_msgs) StdoutLine: {'line': b'writing realsense2_camera_msgs.egg-info/PKG-INFO\n'}
+[0.772280] (realsense2_camera_msgs) StdoutLine: {'line': b'writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt\n'}
+[0.772992] (realsense2_camera_msgs) StdoutLine: {'line': b'writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt\n'}
+[0.776453] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.778711] (realsense2_camera_msgs) StdoutLine: {'line': b"reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.780602] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.800621] (-) TimerEvent: {}
+[0.814672] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg\n'}
+[0.900739] (-) TimerEvent: {}
+[0.956942] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.969662] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.000969] (-) TimerEvent: {}
+[1.034531] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 72%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.046778] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.094293] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.101040] (-) TimerEvent: {}
+[1.161768] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.181838] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs\n'}
+[1.188071] (my_chess_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_chess_controller', 'build', '--build-base', '/home/ekambehl/chess_ws/build/my_chess_controller/build', 'install', '--record', '/home/ekambehl/chess_ws/build/my_chess_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/ekambehl/chess_ws/src/my_chess_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'ekambehl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ekambehl', 'OLDPWD': '/home/ekambehl/chess_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1944', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ekambehl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ekambehl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F0WB01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.163', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ekambehl/chess_ws/build/my_chess_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ekambehl/chess_ws/build/my_chess_controller/prefix_override:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs'}, 'shell': False}
+[1.201222] (-) TimerEvent: {}
+[1.201690] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[1.224244] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o\x1b[0m\n'}
+[1.224625] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[1.224956] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o\x1b[0m\n'}
+[1.225389] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[1.301329] (-) TimerEvent: {}
+[1.344647] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[1.384333] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense2_camera_msgs__rosidl_generator_py\n'}
+[1.401520] (-) TimerEvent: {}
+[1.406685] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.406906] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.407162] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.475531] (my_chess_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.475995] (my_chess_controller) StdoutLine: {'line': b'writing ../../build/my_chess_controller/my_chess_controller.egg-info/PKG-INFO\n'}
+[1.476239] (my_chess_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_chess_controller/my_chess_controller.egg-info/dependency_links.txt\n'}
+[1.476387] (my_chess_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_chess_controller/my_chess_controller.egg-info/entry_points.txt\n'}
+[1.476483] (my_chess_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_chess_controller/my_chess_controller.egg-info/requires.txt\n'}
+[1.476585] (my_chess_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_chess_controller/my_chess_controller.egg-info/top_level.txt\n'}
+[1.478849] (my_chess_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_chess_controller/my_chess_controller.egg-info/SOURCES.txt'\n"}
+[1.479787] (my_chess_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_chess_controller/my_chess_controller.egg-info/SOURCES.txt'\n"}
+[1.479925] (my_chess_controller) StdoutLine: {'line': b'running build\n'}
+[1.480038] (my_chess_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.480402] (my_chess_controller) StdoutLine: {'line': b'copying my_chess_controller/chess_pieces.py -> /home/ekambehl/chess_ws/build/my_chess_controller/build/lib/my_chess_controller\n'}
+[1.480934] (my_chess_controller) StdoutLine: {'line': b'copying my_chess_controller/depth_sub.py -> /home/ekambehl/chess_ws/build/my_chess_controller/build/lib/my_chess_controller\n'}
+[1.481532] (my_chess_controller) StdoutLine: {'line': b'running install\n'}
+[1.481781] (my_chess_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.482851] (my_chess_controller) StdoutLine: {'line': b'copying /home/ekambehl/chess_ws/build/my_chess_controller/build/lib/my_chess_controller/chess_pieces.py -> /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller\n'}
+[1.483102] (my_chess_controller) StdoutLine: {'line': b'copying /home/ekambehl/chess_ws/build/my_chess_controller/build/lib/my_chess_controller/depth_sub.py -> /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller\n'}
+[1.483884] (my_chess_controller) StdoutLine: {'line': b'byte-compiling /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller/chess_pieces.py to chess_pieces.cpython-310.pyc\n'}
+[1.485458] (my_chess_controller) StdoutLine: {'line': b'byte-compiling /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller/depth_sub.py to depth_sub.cpython-310.pyc\n'}
+[1.487533] (my_chess_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.488089] (my_chess_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.489745] (my_chess_controller) StdoutLine: {'line': b"removing '/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.489975] (my_chess_controller) StdoutLine: {'line': b'Copying ../../build/my_chess_controller/my_chess_controller.egg-info to /home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages/my_chess_controller-0.0.0-py3.10.egg-info\n'}
+[1.490868] (my_chess_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.501712] (-) TimerEvent: {}
+[1.512655] (my_chess_controller) StdoutLine: {'line': b'Installing blue_pieces script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller\n'}
+[1.512910] (my_chess_controller) StdoutLine: {'line': b'Installing board_state script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller\n'}
+[1.513025] (my_chess_controller) StdoutLine: {'line': b'Installing key_board script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller\n'}
+[1.513146] (my_chess_controller) StdoutLine: {'line': b'Installing my_listner script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller\n'}
+[1.513231] (my_chess_controller) StdoutLine: {'line': b'Installing red_pieces script to /home/ekambehl/chess_ws/install/my_chess_controller/lib/my_chess_controller\n'}
+[1.513467] (my_chess_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ekambehl/chess_ws/build/my_chess_controller/install.log'\n"}
+[1.521457] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.521693] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.521803] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.539889] (my_chess_controller) CommandEnded: {'returncode': 0}
+[1.555130] (my_chess_controller) JobEnded: {'identifier': 'my_chess_controller', 'rc': 0}
+[1.561122] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[1.562341] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.563010] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.572922] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[1.601891] (-) TimerEvent: {}
+[1.671004] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'install'}
+[1.677429] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ekambehl/chess_ws/build/realsense2_camera_msgs'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[1.692061] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.692350] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs\n'}
+[1.692484] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.692696] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.692848] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.692912] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h\n'}
+[1.692975] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h\n'}
+[1.693038] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.693167] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[1.693298] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h\n'}
+[1.693366] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[1.693424] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c\n'}
+[1.693484] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[1.693542] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c\n'}
+[1.693632] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[1.693689] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[1.693754] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h\n'}
+[1.693890] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[1.693961] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[1.694023] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[1.694088] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h\n'}
+[1.694151] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.694216] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h\n'}
+[1.694300] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.694375] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h\n'}
+[1.694433] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h\n'}
+[1.694489] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c\n'}
+[1.694544] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h\n'}
+[1.694601] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh\n'}
+[1.694650] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv\n'}
+[1.694699] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so\n'}
+[1.694750] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.694827] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.694878] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.694930] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.694982] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[1.695032] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.695145] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[1.695200] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.695250] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.695299] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.695356] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.695430] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.695488] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.695543] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.695600] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.695653] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[1.695712] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c\n'}
+[1.695774] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[1.695837] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[1.695914] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[1.695975] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[1.696032] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.696092] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.696151] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.696212] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c\n'}
+[1.696266] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.696318] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.696437] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so\n'}
+[1.696499] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.696556] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.696615] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp\n'}
+[1.696725] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp\n'}
+[1.696778] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp\n'}
+[1.696850] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.696914] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[1.696978] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[1.697119] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[1.697178] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[1.697233] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[1.697292] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[1.697346] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[1.697404] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[1.697463] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[1.697519] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.697574] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp\n'}
+[1.697649] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.697707] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp\n'}
+[1.697763] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp\n'}
+[1.697817] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp\n'}
+[1.697873] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.697946] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.698026] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.698081] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.698140] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.698198] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps\n'}
+[1.698258] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.698323] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.698388] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.698452] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.698514] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps\n'}
+[1.698624] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.698689] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.698750] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.698819] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[1.698881] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[1.698946] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[1.699008] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.699081] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.699153] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[1.699235] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp\n'}
+[1.699363] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.699424] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[1.699490] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[1.699557] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[1.699625] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.699689] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp\n'}
+[1.699753] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.699807] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.699861] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[1.699915] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[1.699972] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh\n'}
+[1.700027] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv\n'}
+[1.700083] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.51.1-py3.10.egg-info\n'}
+[1.700137] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.51.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.700191] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.51.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.700246] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.51.1-py3.10.egg-info/top_level.txt\n'}
+[1.700334] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.51.1-py3.10.egg-info/PKG-INFO\n'}
+[1.700387] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs\n'}
+[1.700442] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.700493] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.700545] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg\n'}
+[1.700597] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c\n'}
+[1.700648] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py\n'}
+[1.700698] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c\n'}
+[1.700758] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py\n'}
+[1.700820] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c\n'}
+[1.700872] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py\n'}
+[1.700923] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py\n'}
+[1.700976] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv\n'}
+[1.701029] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py\n'}
+[1.701080] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c\n'}
+[1.701131] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py\n'}
+[1.701183] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.701235] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.701287] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.701338] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py\n'}
+[1.701391] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.701437] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[1.701958] (-) TimerEvent: {}
+[1.729059] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...\n"}
+[1.729255] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...\n"}
+[1.729366] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...\n"}
+[1.733127] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.733625] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.733739] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.733975] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.734154] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.734382] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.734694] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[1.734956] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""\n'}
+[1.735058] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl\n'}
+[1.735168] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl\n'}
+[1.735257] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl\n'}
+[1.735374] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl\n'}
+[1.735449] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg\n'}
+[1.735586] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg\n'}
+[1.735655] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg\n'}
+[1.735721] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv\n'}
+[1.735784] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg\n'}
+[1.735846] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg\n'}
+[1.735909] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs\n'}
+[1.735999] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs\n'}
+[1.736068] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh\n'}
+[1.736185] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[1.736253] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh\n'}
+[1.736319] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv\n'}
+[1.736384] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash\n'}
+[1.736448] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh\n'}
+[1.736514] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh\n'}
+[1.736580] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv\n'}
+[1.736643] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv\n'}
+[1.736733] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs\n'}
+[1.736846] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[1.736935] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.737187] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.737289] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.737500] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.737584] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.737749] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.737833] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.737991] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.738153] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.738241] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.738436] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.738520] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.738680] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.738764] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.738976] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.739070] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.739134] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.739215] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.739324] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.739391] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.739455] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.739537] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.739597] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.739656] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake\n'}
+[1.739723] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake\n'}
+[1.739785] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml\n'}
+[1.741774] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[1.802158] (-) TimerEvent: {}
+[1.861892] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 0}
+[1.862381] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[1.869221] (realsense2_description) JobStarted: {'identifier': 'realsense2_description'}
+[1.875800] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[1.876568] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[1.876902] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ekambehl/chess_ws/build/realsense2_camera', '--', '-j16', '-l16'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[1.880862] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'cmake'}
+[1.881551] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'build'}
+[1.882370] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ekambehl/chess_ws/build/realsense2_description', '--', '-j16', '-l16'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[1.902297] (-) TimerEvent: {}
+[1.907721] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[1.907987] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.915679] (realsense2_description) CommandEnded: {'returncode': 0}
+[1.941424] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'install'}
+[1.942536] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ekambehl/chess_ws/build/realsense2_description'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[1.949058] (realsense2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.949507] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/launch\n'}
+[1.949669] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py\n'}
+[1.949817] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py\n'}
+[1.949976] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes\n'}
+[1.950127] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae\n'}
+[1.950255] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae\n'}
+[1.950328] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl\n'}
+[1.950399] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl\n'}
+[1.950467] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl\n'}
+[1.950534] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl\n'}
+[1.950600] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/rviz\n'}
+[1.950667] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz\n'}
+[1.950735] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf\n'}
+[1.950801] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro\n'}
+[1.950867] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro\n'}
+[1.950933] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro\n'}
+[1.951012] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro\n'}
+[1.951162] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro\n'}
+[1.951277] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro\n'}
+[1.951344] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro\n'}
+[1.951407] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro\n'}
+[1.951473] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro\n'}
+[1.951538] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro\n'}
+[1.951603] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro\n'}
+[1.951669] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro\n'}
+[1.951735] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro\n'}
+[1.951799] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro\n'}
+[1.951864] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro\n'}
+[1.951927] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro\n'}
+[1.951991] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro\n'}
+[1.952055] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro\n'}
+[1.952120] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description\n'}
+[1.952185] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description\n'}
+[1.952320] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh\n'}
+[1.952391] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv\n'}
+[1.952462] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/environment/path.sh\n'}
+[1.952533] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv\n'}
+[1.952667] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/local_setup.bash\n'}
+[1.952759] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/local_setup.sh\n'}
+[1.952824] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh\n'}
+[1.952890] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv\n'}
+[1.952954] (realsense2_description) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.dsv\n'}
+[1.953017] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description\n'}
+[1.953082] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake\n'}
+[1.953146] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake\n'}
+[1.953208] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_description/share/realsense2_description/package.xml\n'}
+[1.953831] (realsense2_description) CommandEnded: {'returncode': 0}
+[1.992921] (realsense2_description) JobEnded: {'identifier': 'realsense2_description', 'rc': 0}
+[2.002380] (-) TimerEvent: {}
+[2.049164] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.069699] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.071578] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.076329] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.085201] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.097311] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.102495] (-) TimerEvent: {}
+[2.109283] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.202651] (-) TimerEvent: {}
+[2.282200] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.302872] (-) TimerEvent: {}
+[2.323732] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.324989] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.403008] (-) TimerEvent: {}
+[2.419117] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.503178] (-) TimerEvent: {}
+[2.573436] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.603350] (-) TimerEvent: {}
+[2.620261] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.51.1 (/home/ekambehl/chess_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[2.666911] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.703506] (-) TimerEvent: {}
+[2.734135] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.803682] (-) TimerEvent: {}
+[2.904115] (-) TimerEvent: {}
+[2.950365] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[3.004300] (-) TimerEvent: {}
+[3.005468] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Humble\n'}
+[3.094961] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.104474] (-) TimerEvent: {}
+[3.116338] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[3.117809] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/ekambehl/chess_ws/build/realsense2_camera\n'}
+[3.142734] (realsense2_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_node\x1b[0m\n'}
+[3.154565] (realsense2_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera\x1b[0m\n'}
+[3.160281] (realsense2_camera) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o\x1b[0m\n'}
+[3.204619] (-) TimerEvent: {}
+[3.205185] (realsense2_camera) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o\x1b[0m\n'}
+[3.206876] (realsense2_camera) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o\x1b[0m\n'}
+[3.208376] (realsense2_camera) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o\x1b[0m\n'}
+[3.208928] (realsense2_camera) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[3.209917] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o\x1b[0m\n'}
+[3.211171] (realsense2_camera) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o\x1b[0m\n'}
+[3.213551] (realsense2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o\x1b[0m\n'}
+[3.214863] (realsense2_camera) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[3.216352] (realsense2_camera) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o\x1b[0m\n'}
+[3.217029] (realsense2_camera) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o\x1b[0m\n'}
+[3.217520] (realsense2_camera) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o\x1b[0m\n'}
+[3.218779] (realsense2_camera) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[3.220623] (realsense2_camera) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o\x1b[0m\n'}
+[3.304741] (-) TimerEvent: {}
+[3.405147] (-) TimerEvent: {}
+[3.505567] (-) TimerEvent: {}
+[3.605987] (-) TimerEvent: {}
+[3.706402] (-) TimerEvent: {}
+[3.806851] (-) TimerEvent: {}
+[3.907283] (-) TimerEvent: {}
+[4.007741] (-) TimerEvent: {}
+[4.108178] (-) TimerEvent: {}
+[4.208619] (-) TimerEvent: {}
+[4.309072] (-) TimerEvent: {}
+[4.409491] (-) TimerEvent: {}
+[4.509865] (-) TimerEvent: {}
+[4.610345] (-) TimerEvent: {}
+[4.710795] (-) TimerEvent: {}
+[4.811259] (-) TimerEvent: {}
+[4.911937] (-) TimerEvent: {}
+[5.012411] (-) TimerEvent: {}
+[5.112894] (-) TimerEvent: {}
+[5.213583] (-) TimerEvent: {}
+[5.314059] (-) TimerEvent: {}
+[5.414922] (-) TimerEvent: {}
+[5.515389] (-) TimerEvent: {}
+[5.615860] (-) TimerEvent: {}
+[5.716330] (-) TimerEvent: {}
+[5.816854] (-) TimerEvent: {}
+[5.917326] (-) TimerEvent: {}
+[6.017804] (-) TimerEvent: {}
+[6.118292] (-) TimerEvent: {}
+[6.218777] (-) TimerEvent: {}
+[6.319264] (-) TimerEvent: {}
+[6.419723] (-) TimerEvent: {}
+[6.520193] (-) TimerEvent: {}
+[6.620676] (-) TimerEvent: {}
+[6.721162] (-) TimerEvent: {}
+[6.821620] (-) TimerEvent: {}
+[6.922063] (-) TimerEvent: {}
+[7.022539] (-) TimerEvent: {}
+[7.123028] (-) TimerEvent: {}
+[7.223490] (-) TimerEvent: {}
+[7.323995] (-) TimerEvent: {}
+[7.424809] (-) TimerEvent: {}
+[7.525343] (-) TimerEvent: {}
+[7.625839] (-) TimerEvent: {}
+[7.726337] (-) TimerEvent: {}
+[7.826861] (-) TimerEvent: {}
+[7.927656] (-) TimerEvent: {}
+[8.028149] (-) TimerEvent: {}
+[8.128732] (-) TimerEvent: {}
+[8.238431] (-) TimerEvent: {}
+[8.339013] (-) TimerEvent: {}
+[8.439485] (-) TimerEvent: {}
+[8.539926] (-) TimerEvent: {}
+[8.640367] (-) TimerEvent: {}
+[8.740827] (-) TimerEvent: {}
+[8.841513] (-) TimerEvent: {}
+[8.941973] (-) TimerEvent: {}
+[9.042422] (-) TimerEvent: {}
+[9.142859] (-) TimerEvent: {}
+[9.243323] (-) TimerEvent: {}
+[9.343750] (-) TimerEvent: {}
+[9.444185] (-) TimerEvent: {}
+[9.544625] (-) TimerEvent: {}
+[9.645056] (-) TimerEvent: {}
+[9.745505] (-) TimerEvent: {}
+[9.845980] (-) TimerEvent: {}
+[9.946519] (-) TimerEvent: {}
+[10.047002] (-) TimerEvent: {}
+[10.147464] (-) TimerEvent: {}
+[10.247906] (-) TimerEvent: {}
+[10.348337] (-) TimerEvent: {}
+[10.372516] (realsense2_camera) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable realsense2_camera_node\x1b[0m\n'}
+[10.448481] (-) TimerEvent: {}
+[10.549063] (-) TimerEvent: {}
+[10.589565] (realsense2_camera) StdoutLine: {'line': b'[ 93%] Built target realsense2_camera_node\n'}
+[10.649203] (-) TimerEvent: {}
+[10.749672] (-) TimerEvent: {}
+[10.850136] (-) TimerEvent: {}
+[10.950571] (-) TimerEvent: {}
+[11.051011] (-) TimerEvent: {}
+[11.151457] (-) TimerEvent: {}
+[11.251930] (-) TimerEvent: {}
+[11.352380] (-) TimerEvent: {}
+[11.452825] (-) TimerEvent: {}
+[11.553264] (-) TimerEvent: {}
+[11.653736] (-) TimerEvent: {}
+[11.754191] (-) TimerEvent: {}
+[11.854640] (-) TimerEvent: {}
+[11.955190] (-) TimerEvent: {}
+[12.055705] (-) TimerEvent: {}
+[12.156166] (-) TimerEvent: {}
+[12.256636] (-) TimerEvent: {}
+[12.357139] (-) TimerEvent: {}
+[12.457587] (-) TimerEvent: {}
+[12.558153] (-) TimerEvent: {}
+[12.658606] (-) TimerEvent: {}
+[12.758988] (-) TimerEvent: {}
+[12.859423] (-) TimerEvent: {}
+[12.959840] (-) TimerEvent: {}
+[13.060270] (-) TimerEvent: {}
+[13.160806] (-) TimerEvent: {}
+[13.261250] (-) TimerEvent: {}
+[13.361689] (-) TimerEvent: {}
+[13.462275] (-) TimerEvent: {}
+[13.562735] (-) TimerEvent: {}
+[13.663186] (-) TimerEvent: {}
+[13.763664] (-) TimerEvent: {}
+[13.864155] (-) TimerEvent: {}
+[13.964613] (-) TimerEvent: {}
+[14.065058] (-) TimerEvent: {}
+[14.165501] (-) TimerEvent: {}
+[14.265969] (-) TimerEvent: {}
+[14.366414] (-) TimerEvent: {}
+[14.466849] (-) TimerEvent: {}
+[14.567303] (-) TimerEvent: {}
+[14.667732] (-) TimerEvent: {}
+[14.768167] (-) TimerEvent: {}
+[14.868675] (-) TimerEvent: {}
+[14.969104] (-) TimerEvent: {}
+[15.069589] (-) TimerEvent: {}
+[15.170074] (-) TimerEvent: {}
+[15.270505] (-) TimerEvent: {}
+[15.370860] (-) TimerEvent: {}
+[15.471319] (-) TimerEvent: {}
+[15.571786] (-) TimerEvent: {}
+[15.672171] (-) TimerEvent: {}
+[15.772660] (-) TimerEvent: {}
+[15.873085] (-) TimerEvent: {}
+[15.973558] (-) TimerEvent: {}
+[16.074007] (-) TimerEvent: {}
+[16.174428] (-) TimerEvent: {}
+[16.274803] (-) TimerEvent: {}
+[16.375287] (-) TimerEvent: {}
+[16.475804] (-) TimerEvent: {}
+[16.576315] (-) TimerEvent: {}
+[16.676807] (-) TimerEvent: {}
+[16.777308] (-) TimerEvent: {}
+[16.877807] (-) TimerEvent: {}
+[16.978239] (-) TimerEvent: {}
+[17.078673] (-) TimerEvent: {}
+[17.179089] (-) TimerEvent: {}
+[17.279554] (-) TimerEvent: {}
+[17.379948] (-) TimerEvent: {}
+[17.480369] (-) TimerEvent: {}
+[17.580909] (-) TimerEvent: {}
+[17.681384] (-) TimerEvent: {}
+[17.781909] (-) TimerEvent: {}
+[17.882433] (-) TimerEvent: {}
+[17.982877] (-) TimerEvent: {}
+[18.083335] (-) TimerEvent: {}
+[18.183775] (-) TimerEvent: {}
+[18.284269] (-) TimerEvent: {}
+[18.384688] (-) TimerEvent: {}
+[18.485081] (-) TimerEvent: {}
+[18.585443] (-) TimerEvent: {}
+[18.685868] (-) TimerEvent: {}
+[18.786397] (-) TimerEvent: {}
+[18.886772] (-) TimerEvent: {}
+[18.987109] (-) TimerEvent: {}
+[19.087564] (-) TimerEvent: {}
+[19.188085] (-) TimerEvent: {}
+[19.288646] (-) TimerEvent: {}
+[19.389055] (-) TimerEvent: {}
+[19.489577] (-) TimerEvent: {}
+[19.589897] (-) TimerEvent: {}
+[19.690226] (-) TimerEvent: {}
+[19.790664] (-) TimerEvent: {}
+[19.891145] (-) TimerEvent: {}
+[19.991500] (-) TimerEvent: {}
+[20.091916] (-) TimerEvent: {}
+[20.192395] (-) TimerEvent: {}
+[20.292808] (-) TimerEvent: {}
+[20.393202] (-) TimerEvent: {}
+[20.493778] (-) TimerEvent: {}
+[20.594244] (-) TimerEvent: {}
+[20.694588] (-) TimerEvent: {}
+[20.794995] (-) TimerEvent: {}
+[20.895432] (-) TimerEvent: {}
+[20.995866] (-) TimerEvent: {}
+[21.096308] (-) TimerEvent: {}
+[21.196764] (-) TimerEvent: {}
+[21.297189] (-) TimerEvent: {}
+[21.397652] (-) TimerEvent: {}
+[21.498140] (-) TimerEvent: {}
+[21.598610] (-) TimerEvent: {}
+[21.698991] (-) TimerEvent: {}
+[21.799383] (-) TimerEvent: {}
+[21.899810] (-) TimerEvent: {}
+[22.000198] (-) TimerEvent: {}
+[22.100570] (-) TimerEvent: {}
+[22.201065] (-) TimerEvent: {}
+[22.301478] (-) TimerEvent: {}
+[22.401990] (-) TimerEvent: {}
+[22.502454] (-) TimerEvent: {}
+[22.602898] (-) TimerEvent: {}
+[22.703179] (-) TimerEvent: {}
+[22.803544] (-) TimerEvent: {}
+[22.903881] (-) TimerEvent: {}
+[23.004305] (-) TimerEvent: {}
+[23.042790] (realsense2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera.so\x1b[0m\n'}
+[23.104400] (-) TimerEvent: {}
+[23.204706] (-) TimerEvent: {}
+[23.305054] (-) TimerEvent: {}
+[23.405521] (-) TimerEvent: {}
+[23.419166] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[23.430140] (realsense2_camera) CommandEnded: {'returncode': 0}
+[23.483596] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[23.484558] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ekambehl/chess_ws/build/realsense2_camera'], 'cwd': '/home/ekambehl/chess_ws/build/realsense2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ekambehl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/chess_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera/lib:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/lib:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ekambehl'), ('OLDPWD', '/home/ekambehl/chess_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ekambehl/chess_ws/install:/home/ekambehl/ros_ws/install:/home/ekambehl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ekambehl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ekambehl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ekambehl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ekambehl-Nitro-AN515-57:@/tmp/.ICE-unix/1944,unix/ekambehl-Nitro-AN515-57:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29f4b23e_fa1c_4a14_ae65_0f136d7c1c60'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F0WB01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ekambehl/chess_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a13f5dd0b2ce51f73ad9df2c63ed78d5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/chess_ws/install/my_chess_controller/lib/python3.10/site-packages:/home/ekambehl/ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ekambehl/ros2_ws/install/my_robot_camera_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ekambehl/chess_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/realsense2_description:/home/ekambehl/chess_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_description:/home/ekambehl/ros_ws/install/realsense2_camera:/home/ekambehl/ros_ws/install/realsense2_camera_msgs:/home/ekambehl/ros2_ws/install/realsense2_description:/home/ekambehl/ros2_ws/install/realsense2_camera_msgs:/home/ekambehl/chess_ws/install/my_chess_controller:/home/ekambehl/ros_ws/install/my_robot_camera_driver:/home/ekambehl/ros2_ws/install/my_robot_camera_driver:/opt/ros/humble')]), 'shell': False}
+[23.490940] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[23.491540] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[23.491791] (realsense2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""\n'}
+[23.492533] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[23.495423] (realsense2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/ekambehl/chess_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""\n'}
+[23.495738] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include\n'}
+[23.495849] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/named_filter.h\n'}
+[23.495949] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/dynamic_params.h\n'}
+[23.496049] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/sensor_params.h\n'}
+[23.496210] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/ros_param_backend.h\n'}
+[23.496337] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/ros_sensor.h\n'}
+[23.496433] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/image_publisher.h\n'}
+[23.496527] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/ros_utils.h\n'}
+[23.496621] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[23.496716] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/profile_manager.h\n'}
+[23.496810] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/t265_realsense_node.h\n'}
+[23.496903] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/base_realsense_node.h\n'}
+[23.496995] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/include/constants.h\n'}
+[23.497087] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch\n'}
+[23.497179] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[23.497237] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[23.497293] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py\n'}
+[23.497350] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[23.497407] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py\n'}
+[23.497464] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[23.497521] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[23.497579] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[23.497691] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[23.497752] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[23.497808] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[23.497865] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[23.497921] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[23.498110] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[23.498172] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[23.498227] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[23.498284] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[23.498534] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[23.498599] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[23.498659] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[23.498718] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.498775] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.498861] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.498919] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[23.499015] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[23.499076] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ekambehl/chess_ws/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[23.499527] (realsense2_camera) CommandEnded: {'returncode': 0}
+[23.505842] (-) TimerEvent: {}
+[23.564373] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[23.565148] (-) EventReactorShutdown: {}

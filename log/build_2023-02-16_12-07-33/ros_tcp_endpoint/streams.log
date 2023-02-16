@@ -1,0 +1,72 @@
+[1.035s] Invoking command in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/ekambehl/chess_ws/build/ros_tcp_endpoint/prefix_override:/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build install --record /home/ekambehl/chess_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.296s] /home/ekambehl/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.296s]   warnings.warn(
+[1.326s] running egg_info
+[1.326s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[1.326s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.327s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.327s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.327s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.328s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.328s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.329s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.329s] adding license file 'LICENSE'
+[1.330s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.330s] running build
+[1.330s] running build_py
+[1.330s] creating /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build
+[1.330s] creating /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib
+[1.330s] creating /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.330s] copying ros_tcp_endpoint/communication.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.330s] copying ros_tcp_endpoint/unity_service.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.330s] copying ros_tcp_endpoint/thread_pauser.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/exceptions.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/tcp_sender.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/server.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/publisher.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/subscriber.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/client.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/__init__.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] copying ros_tcp_endpoint/service.py -> /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.331s] running install
+[1.332s] running install_lib
+[1.332s] creating /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.333s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] copying /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.334s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[1.334s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[1.335s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[1.335s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[1.335s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[1.337s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[1.339s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[1.339s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[1.340s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[1.340s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[1.341s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[1.341s] byte-compiling /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[1.342s] running install_data
+[1.342s] creating /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ament_index
+[1.342s] creating /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[1.342s] creating /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.342s] copying resource/ros_tcp_endpoint -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.342s] copying package.xml -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[1.343s] creating /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.343s] copying launch/endpoint.py -> /home/ekambehl/chess_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.343s] running install_egg_info
+[1.344s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[1.345s] running install_scripts
+[1.364s] Installing default_server_endpoint script to /home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.364s] writing list of installed files to '/home/ekambehl/chess_ws/build/ros_tcp_endpoint/install.log'
+[1.396s] Invoked command in '/home/ekambehl/chess_ws/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/ekambehl/chess_ws/build/ros_tcp_endpoint/prefix_override:/home/ekambehl/chess_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ekambehl/chess_ws/build/ros_tcp_endpoint/build install --record /home/ekambehl/chess_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
