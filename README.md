@@ -10,7 +10,14 @@ The camera detects the color of the pieces and also detects the corners of the s
 3. follow following tutorial to make a colcon workspace: https://www.youtube.com/watch?v=3GbrKQ7G2P0
 4. Download the code's zip file or clone the repository
 5. install realsense sdk
-
+### Python Libraries to install:
+1. rclpy
+2. chess
+3. stockfish
+4. Numpy
+5. std_msgs
+6. pynput
+7. opencv-python
 ## Steps:
 1. name the workspace as chess_ws
 2. copy the files in src folder of this repository to the src folder in the chess_ws
