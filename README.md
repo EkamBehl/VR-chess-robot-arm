@@ -5,7 +5,7 @@ VR chess project which uses  opencv and ROS to detect chess pieces ,get a board 
 The camera detects the color of the pieces and also detects the corners of the squares ,compares the two and gives an output of a colour occupying a particular square of the chess board .This state is compared with the previous state of the chess board and an updated piece position on the chess board is provided to the stockfish chess engine which then provides the user with a move recommendation.
 
 ## PRE-REQUISITES:
-1. Download Ubuntu 22.04  and set it up on your laptop/pc (download is recommended instead of using it on virtualbox(some issues may arise))
+1. Download Ubuntu 22.04  and set it up on your laptop/pc (download is recommended instead of using it on virtualbox(as some issues may arise with usb connection on virtual box))
 2. Install Ros2
 3. follow following tutorial to make a colcon workspace: https://www.youtube.com/watch?v=3GbrKQ7G2P0
 4. Download the code's zip file or clone the repository
