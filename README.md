@@ -55,7 +55,7 @@ To start with the project,follow the following steps:
 
 
 ## Things to take care about /troubleshoot
-1. if the board_state node fails,it is probably due to the fact that keyboard button press was not pressed after moving or was pressed without making a move.
+1. if the board_state node fails,it is probably due to the fact that keyboard button press was not pressed after making a single move or was pressed after making multiple moves.IT NEEDS TO BE PRESSED AFTER EACH MOVE BE IT BLACK OR WHITE.
 2. another possible problem for pieces not being detected can be that the board was moved and hence the location of board was changed
 3. Another current problem is that board state and my_listner/depth-sub(they are the same) are configured in such a way that board state waits to get data from depth sub.py(which is data about the current chess board squares.)The problem is that my_listner sometimes fails to send the coords of the squares because of the pieces on the board.To get rid of this problem ,the my_listner keeps on sending the same coordinates once it  is able to detect the chessboard on start of the my_listner node.So if the chess board is moved during the play(which is very rare),the board state won't tell the correct board position.To rectify this,my_listner can be rerun again(without the pieces on the board!!) and then once it starts printing the coordinates,pieces can be placed back and the board_state can be run again to get the desired result again.
 4. another error can arise due to the position of chess pieces,i.e. the blue pieces being placed instead of red pieces.The initial board state is hard coded in the form of  ```  
