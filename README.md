@@ -44,7 +44,7 @@ To start with the project,follow the following steps:
 3. After setting up all the pieces,make a valid move and click space bar on the window where you ran keyboard node.
 4. this should provide a recommended move and also show the current state of the board on the terminal where you ran board_state node
 5. To restart the match, stop the board state node (place all pieces to the starting position )and rerun it.Make a move and press space bar on the keyboard terminal
-7. To change the move recommendation from black to white or white to black,go to board_state.py and go to def printBoard() and change _myStr=getFen(moveBoard,'b',......) to _mySTr=getFen(moveBoard,'w',......) or vice-versa
+7. To change the move recommendation from black to white or white to black,go to board_state.py and go to def printBoard() and change _myStr=getFen(moveBoard,'b',......) to _myStr=getFen(moveBoard,'w',......) or vice-versa
 
 
 
