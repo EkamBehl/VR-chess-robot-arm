@@ -11,6 +11,7 @@ The camera detects the color of the pieces and also detects the corners of the s
 4. Download the code's zip file or clone the repository
 5. install realsense sdk
 6. Realsense Camera (preferably D405)
+7.  Chess board and Blue/red chess pieces
 ### Python Libraries to install:
 1. rclpy
 2. chess
